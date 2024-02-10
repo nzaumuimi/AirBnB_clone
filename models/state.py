@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Classes that inherit from BaseModel"""
+"""Class State that inherit from BaseModel"""
 
 from models.base_model import BaseModel
 
 
-class City(BaseModel):
-    """Class attributes to manage name"""
+class State(BaseModel):
+    """Class to handle name attribute"""
     name = ""
